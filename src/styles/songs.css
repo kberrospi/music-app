@@ -1,6 +1,6 @@
 
 .content-albumes{
-  width:60%;
+  width:60%!important;
   padding-top:20px;
   padding-bottom: 70px;
 }
@@ -119,18 +119,18 @@
 }
 
 .content-info-song{
-  padding: 10px;
+  padding: 10px!important;
   width: 50%;
   color: #FFF;
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 50px!important;
 }
 
 .content-text-song{
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 10px!important;
 }
 
 .content-btns{
