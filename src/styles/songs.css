@@ -1,0 +1,161 @@
+
+.content-albumes{
+  width:60%;
+  padding-top:20px;
+  padding-bottom: 70px;
+}
+
+.container-album-song{
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+
+.img-album{
+  width: 250px;
+}
+
+.content-album-info{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-album-info p, 
+.content-album-info h3{
+  color: white;
+}
+
+
+.container-songs{
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #000;
+}
+
+.content-songs{
+  width: 95%;
+  padding: 20px 0;
+  
+}
+
+.container-list-songs{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.content-list-songs{
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #1A1A1A;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.song-index{
+  width: 3%;
+  font-size: 17px;
+
+}
+
+.song-name{
+  width: 90%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* .song-time{
+  
+} */
+
+.play-song{
+  width: 100%;
+  background-color: #303030;
+  height: 75px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  display: flex;
+}
+
+.play-song-loading{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 100%;
+  background-color: #303030;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+}
+
+.content-controls{
+  display: flex;
+  align-items: center;
+}
+
+.content-controls button{
+  cursor: pointer;
+  border-radius: 100%;
+  width: 32px;
+  border: none;
+  font-size: 20px;
+  margin: 0 10px
+}
+
+.content-controls button:hover{
+  background-color: #a6a6a6;
+  transition: .3s;
+}
+
+.content-controls button:disabled{
+  background-color: #a6a6a6;
+  transition: .3s;
+}
+
+.content-info-song{
+  padding: 10px;
+  width: 50%;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.content-text-song{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.content-btns{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-btns button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.content-btns img{
+  width: 25px;
+}
+
+.list-song-album{
+  width: 100%;
+  background-color: #000;
+  transform: translate(0, -100%);
+  position: absolute;
+  height: 50vh;
+  padding: 20px;
+  overflow: auto;
+}

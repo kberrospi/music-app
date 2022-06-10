@@ -1,0 +1,42 @@
+.container-album{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-album{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #4A4A4A;
+  padding: 13px 0;
+}
+
+.container-album:hover{
+  background-color: #3D3D3D;
+  border-radius: 10px;
+}
+
+.content-text-album{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  
+}
+
+.title-album, .tracks-album{
+  cursor: default;
+  width: fit-content;
+}
+.title-album:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-play{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

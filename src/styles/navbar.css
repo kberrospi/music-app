@@ -1,0 +1,33 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: #3B3938;
+  position: fixed;
+  z-index: 1000;
+  align-items: center;
+}
+
+.title{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.home{
+  color: white;
+  font-weight: 600;
+}
+
+.button-back{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+}
+
+.back{
+  width: 13px;
+  margin-right: 10px;
+}
